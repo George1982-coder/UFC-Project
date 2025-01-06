@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/header.css">
+    <script src="./scripts/navbar.js" defer></script>
+
+    <title>UFC</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="./index.html">
+        <div class="logo">UFC</div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./pages/fighters.html">FIGHTERS</a></li>
+        <li>
+          <a href="#more" id="dropdown-toggle">MORE</a>
+          <ul class="dropdown">
+            <li><a class="sub-menu" href="./pages/events.html">EVENTS</a></li>
+            <li><a class="sub-menu" href="./pages/about.html">ABOUT</a></li>
+            <li><a class="sub-menu" href="./pages/contact.html">CONTACT</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div id="hamburger">&#9776;</div>
+    </nav>
+    
+    <header class="hero-section"> 
+      <div class="hero-content">
+        <h1>Welcom to the UFC fight night</h1>
+        <p>Your website for getting upadates, about ufc events.</p>
+        <a target="_blank" class="events-context" href="https://www.ufc.com/events?fa=tuf.home&page=5">Discover Events</a>
+      </div>
+    </header>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+.events-section {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.events-header {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.intro-text {
+  font-size: 18px;
+  color: #555;
+  margin: 0 auto 40px;
+  max-width: 800px;
+}
+.events-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+.event-card {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 30px 80px 6px;
+  cursor: pointer;
+}
+.event-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.event-details {
+  padding: 20px;
+}
+.event-details h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.event-date {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+.event-location {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.btn {
+  background-color: #ffcc00;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #ff9900;
+  cursor: pointer;
+}

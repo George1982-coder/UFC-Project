@@ -1,0 +1,51 @@
+.about-section {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+.about-contant h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.intro-text {
+  font-size: 18px;
+  color: #555;
+  max-width: 800px;
+  margin: o auto 40px;
+}
+.mission h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #333;
+}
+.mission p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: o auto 40px;
+}
+.team h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+.tean-members {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 0 10px;
+}
+.team-member {
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.team-member p {
+  color: #5555;
+}

@@ -1,0 +1,128 @@
+.style-ufc {
+  align-items: center;
+  color: red;
+  justify-content: center;
+  display: flex;
+  font-size: 30px;
+}
+.style-h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: solid;
+  margin-bottom: 150px;
+  font-size: 50px;
+}
+.all-photos {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+.merabi,
+.ilo,
+.islam,
+.belal,
+.pereira,
+.plesis,
+.jones,
+.alexandre,
+.valentina,
+.zhang,
+.juliana {
+  width: 300px;
+}
+.dvalishvili,
+.makhachev,
+.topuria,
+.muhammad,
+.alex,
+.dricus,
+.jon,
+.pantoja,
+.shevchenko,
+.weili,
+.pena {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.title {
+  color: red;
+}
+.machine {
+  font-size: solid;
+}
+.weight {
+  padding-left: 22rem;
+}
+.merabi {
+  padding-left: 20rem;
+}
+.ilia {
+  padding-left: 22rem;
+}
+.ilo {
+  padding-left: 23rem;
+}
+.dagestan {
+  padding-left: 22.4rem;
+}
+.islam {
+  padding-left: 20rem;
+}
+.muham {
+  padding-left: 22.5rem;
+}
+.belal {
+  padding-left: 19.4rem;
+}
+.pero {
+  padding-left: 8rem;
+}
+/* .pereira {
+  padding-right: 26rem;
+}
+.perei {
+  padding-right: 20rem;
+} */
+.drakul {
+  padding-left: 22rem;
+}
+.plesis {
+  padding-left: 19rem;
+}
+
+.black {
+  padding-left: 22.4rem;
+}
+.alex,
+.jones {
+  display: flex;
+  justify-content: space-between;
+}
+.alexandre {
+  padding-left: 20rem;
+}
+.valya {
+  padding-left: 23rem;
+}
+.valentina {
+  padding-left: 18rem;
+}
+.zha {
+  padding-left: 23rem;
+}
+.zhang {
+  padding-left: 22.5rem;
+}
+.juli {
+  padding-left: 23rem;
+}
+.juliana {
+  padding-left: 18.5rem;
+}
